@@ -1,0 +1,46 @@
+body{
+    background-image: url(../images/try5.jpg);
+      margin: 0;
+            height: 100vh; /* Altura completa de la ventana */
+            display: flex; /* Activar flexbox */
+            align-items: center; /* Centrar verticalmente los contenedores */
+            justify-content: space-between; /* Espacio entre los contenedores */
+        
+}
+label{
+    font-weight: bold;
+    padding: 50px;
+}
+@media only screen and(min-width: 1200px){
+    
+}
+@media only screen and (max-width: 575px) {
+    ul.menu-navegacion{
+    display: none;
+}}
+.contenedor {
+    width: 80%; /* Ancho del contenedor */
+    height: 30%; /* Altura del contenedor */
+    margin: 10px 0; /* Espaciado entre contenedores */
+    background-size: cover; /* Asegura que la imagen cubra el área */
+    background-position: center; /* Centra la imagen */
+}
+.botoncito{
+    border: 2px solid #6aaeea; /* Borde azul */
+    border-radius: 8px; /* Esquinas redondeadas */
+    padding: 5px; /* Espaciado interno */
+    background-color: #6aaeea; /* Color de fondo */
+    box-shadow: 0 2px 5px rgba(74, 23, 169, 0.1); /* Sombra suave */
+    max-width: 7%; /* Ancho máximo del cuadro */
+    margin: left; /* Centrado en la página */
+}
+.izquierda {
+    background-image: url('../images/P1.jpeg'); /* Ruta de la imagen izquierda */
+}
+
+.centro {
+    background-image: url("../images/P2.jpeg");}
+
+.derecha {
+    background-image: url('../images/P3.jpeg'); /* Ruta de la imagen derecha */
+}

@@ -1,0 +1,27 @@
+
+body{
+    background-color: grey;
+    background-image: url(images/Fondo.jpeg);
+    margin: 0;
+    padding: 0;
+    background-position: center; /* Centra la imagen en la página */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    height: 100vh; /* Hace que el body ocupe toda la altura de la pantalla */
+}
+@media only screen and(min-width: 1200px){
+    
+}
+@media only screen and (max-width: 575px) {
+    ul.menu-navegacion{
+    display: none;
+}}
+.botocitos{
+    border: 2px solid #d236e3; /* Borde azul */
+    border-radius: 8px; /* Esquinas redondeadas */
+    padding: 15px; /* Espaciado interno */
+    background-image: url(images/bla.jpeg);
+    background-size: 93px;
+    box-shadow: 0 2px 5px rgba(74, 23, 169, 0.1); /* Sombra suave */
+    max-width: 93px; /* Ancho máximo del cuadro */
+    margin: 25px left; /* Centrado en la página */
+}

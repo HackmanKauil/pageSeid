@@ -1,0 +1,29 @@
+body{
+    background-color: #ffe4c4;
+}
+h1{
+    color: rgb(229, 43, 167);
+    
+}
+.cuadro {
+    border: 2px solid #d236e3; /* Borde azul */
+    border-radius: 8px; /* Esquinas redondeadas */
+    padding: 15px; /* Espaciado interno */
+    background-color: #f3d1a8; /* Color de fondo */
+    box-shadow: 0 2px 5px rgba(74, 23, 169, 0.1); /* Sombra suave */
+    max-width: 80%; /* Ancho máximo del cuadro */
+    margin: 25px auto; /* Centrado en la página */
+}
+img{
+        max-width: 250px; /* La imagen no excederá el 100% del ancho de su contenedor */
+        height: auto; /* Mantiene la proporción */    
+}
+.inicio {
+    border: 2px solid #d236e3; /* Borde azul */
+    border-radius: 8px; /* Esquinas redondeadas */
+    padding: 15px; /* Espaciado interno */
+    background-color: #f3d1a8; /* Color de fondo */
+    box-shadow: 0 2px 5px rgba(74, 23, 169, 0.1); /* Sombra suave */
+    max-width: 100%; /* Ancho máximo del cuadro */
+    margin: 25px auto; /* Centrado en la página */
+}
